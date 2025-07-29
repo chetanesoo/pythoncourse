@@ -45,7 +45,7 @@ print(set24)
 
 set25 = {"apple", "banana", "cherry"}
 set26 = {"google", "microsoft", "apple"}
-set25.intersection_update(set26) #TThe intersection_update() method will also keep ONLY the duplicates, but it will change the original set instead of returning a new set
+set25.intersection_update(set26) # The intersection_update() method will also keep ONLY the duplicates, but it will change the original set instead of returning a new set
 print(set25)
 
 set27 = {"apple", 1,  "banana", 0, "cherry"}
