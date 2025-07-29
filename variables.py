@@ -1,11 +1,10 @@
-x = 5
+x = 5  # x is of type int
 y = "John"
 print(x) # This will print 5
 print(y) # This will print "John"
 
-z = 4 #x is of type int
-z = "Sally" #x is now of type str
-print (z) # This will print "Sally" and overwrite the previous value of z
+x = "Sally"  # x is now of type str
+print(x)  # This will print "Sally" because x is now a string
 
 a = str(3) #a will be '3'
 b = int(3) #b will be 3
